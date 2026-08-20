@@ -1,0 +1,114 @@
+Q1) List all 6 phases of SDLC in order with one line about each.
+
+Ans:Q1) List all 6 phases of SDLC in order with one line about each.
+
+Ans:
+
+SDLC – Software Development Life Cycle
+
+1. Planning – The project requirements, goals, resources, and schedule are identified.
+
+2. Requirements Analysis – The team collects and analyzes what the users and business need from the software.
+
+3. Design – The software structure, user interface, database, and overall system design are planned.
+
+4. Development – Developers write the code and build the software according to the design.
+
+5. Testing – The software is tested to find and fix bugs and make sure it works as expected.
+
+6. Deployment and Maintenance – The software is released to users and regularly maintained, updated, and improved.
+
+Q2) Write 3 differences between Agile and Waterfall models.
+
+Ans:
+
+1. Agile is an iterative model where development is done in small cycles, while Waterfall follows a fixed step-by-step process.
+
+2. Agile allows changes in requirements during development, while Waterfall usually requires requirements to be finalized before development starts.
+
+3. Agile involves frequent testing and customer feedback, while Waterfall generally performs testing after the development phase is completed.
+
+Q3) Name the 3 main Scrum roles and write one line about the responsibility of each.
+
+Ans:
+
+1. Product Owner – Manages the product requirements and prioritizes the work in the Product Backlog.
+
+2. Scrum Master – Helps the team follow Scrum practices and removes obstacles that affect the team's work.
+
+3. Developers – Design, build, test, and deliver the working product increment during each Sprint.
+
+Q4) What is a Sprint in Scrum? Mention its typical duration.
+
+Ans:
+
+A Sprint is a fixed period in Scrum during which the team works on selected tasks and creates a usable product increment.
+
+Typical Duration: A Sprint usually lasts 1 to 4 weeks, with 2 weeks being very common.
+
+Q5) What do these Jira board columns mean: To Do, In Progress, Done, Backlog?
+
+Ans:
+
+1. To Do – Tasks that are ready to be started but have not been started yet.
+
+2. In Progress – Tasks that the team is currently working on.
+
+3. Done – Tasks that have been completed and meet the required conditions.
+
+4. Backlog – A list of tasks, features, bugs, and requirements that may be worked on in the future.
+
+
+SDLC – Software Development Life Cycle
+
+1. Planning – The project requirements, goals, resources, and schedule are identified.
+
+2. Requirements Analysis – The team collects and analyzes what the users and business need from the software.
+
+3. Design – The software structure, user interface, database, and overall system design are planned.
+
+4. Development – Developers write the code and build the software according to the design.
+
+5. Testing – The software is tested to find and fix bugs and make sure it works as expected.
+
+6. Deployment and Maintenance – The software is released to users and regularly maintained, updated, and improved.
+
+Q2) Write 3 differences between Agile and Waterfall models.
+
+Ans:
+
+1. Agile is an iterative model where development is done in small cycles, while Waterfall follows a fixed step-by-step process.
+
+2. Agile allows changes in requirements during development, while Waterfall usually requires requirements to be finalized before development starts.
+
+3. Agile involves frequent testing and customer feedback, while Waterfall generally performs testing after the development phase is completed.
+
+Q3) Name the 3 main Scrum roles and write one line about the responsibility of each.
+
+Ans:
+
+1. Product Owner – Manages the product requirements and prioritizes the work in the Product Backlog.
+
+2. Scrum Master – Helps the team follow Scrum practices and removes obstacles that affect the team's work.
+
+3. Developers – Design, build, test, and deliver the working product increment during each Sprint.
+
+Q4) What is a Sprint in Scrum? Mention its typical duration.
+
+Ans:
+
+A Sprint is a fixed period in Scrum during which the team works on selected tasks and creates a usable product increment.
+
+Typical Duration: A Sprint usually lasts 1 to 4 weeks, with 2 weeks being very common.
+
+Q5) What do these Jira board columns mean: To Do, In Progress, Done, Backlog?
+
+Ans:
+
+1. To Do – Tasks that are ready to be started but have not been started yet.
+
+2. In Progress – Tasks that the team is currently working on.
+
+3. Done – Tasks that have been completed and meet the required conditions.
+
+4. Backlog – A list of tasks, features, bugs, and requirements that may be worked on in the future.
