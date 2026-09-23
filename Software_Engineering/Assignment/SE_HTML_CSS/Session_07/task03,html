@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product Grid</title>
+    <style>
+        /* CSS Grid Container */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 3 equal columns */
+            gap: 20px;
+            /* Space between rows and columns */
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Styling for each product */
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Featured Products</h2>
+
+    <div class="product-grid">
+        <!-- 6 Product Cards -->
+        <div class="product-card">
+            <img src="/laptop.jpg" alt="Laptop">
+            <h3>Gaming Laptop</h3>
+        </div>
+        <div class="product-card">
+            <img src="/smartphone.jpg" alt="Phone">
+            <h3>Smartphone</h3>
+        </div>
+        <div class="product-card">
+            <img src="/shoes.jpg" alt="Shoes">
+            <h3>Running Shoes</h3>
+        </div>
+        <div class="product-card">
+            <img src="/watch.jpg" alt="Watch">
+            <h3>Smartwatch</h3>
+        </div>
+        <div class="product-card">
+            <img src="/headphones.jpg" alt="Headphones">
+            <h3>Wireless Headphones</h3>
+        </div>
+        <div class="product-card">
+            <img src="/bagpack.jpg" alt="Bag">
+            <h3>Travel Backpack</h3>
+        </div>
+    </div>
+
+</body>
+
+</html>

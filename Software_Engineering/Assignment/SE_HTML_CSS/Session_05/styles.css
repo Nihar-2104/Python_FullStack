@@ -1,0 +1,17 @@
+/* External CSS styling for all elements with this class */
+.zomato-btn {
+    background-color: #cb202d; /* Zomato signature red */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect */
+.zomato-btn:hover {
+    background-color: #e23744; /* Slightly lighter red on hover */
+}

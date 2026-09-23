@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spotify Playlist</title>
+    <style>
+        /* The horizontal playlist bar */
+        .playlist-bar {
+            display: flex;
+            background-color: #1ed760;
+            /* Spotify green */
+            padding: 15px;
+            gap: 15px;
+            /* Adds space between song cards */
+        }
+
+        /* Individual song cards */
+        .song-card {
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+
+            /* Flexbox inside the card to center text */
+            display: flex;
+            flex-direction: column;
+            /* Stacks text top to bottom */
+            align-items: center;
+            /* Vertically centers the text in the cross-axis */
+            justify-content: center;
+            height: 80px;
+            min-width: 120px;
+        }
+
+        .song-card h3 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .song-card p {
+            margin: 5px 0 0 0;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>My Playlist</h2>
+
+    <div class="playlist-bar">
+        <div class="song-card">
+            <h3>Starboy</h3>
+            <p>The Weeknd</p>
+        </div>
+        <div class="song-card">
+            <h3>Shape of You</h3>
+            <p>Ed Sheeran</p>
+        </div>
+        <div class="song-card">
+            <h3>Levitating</h3>
+            <p>Dua Lipa</p>
+        </div>
+        <div class="song-card">
+            <h3>Believer</h3>
+            <p>Imagine Dragons</p>
+        </div>
+        <div class="song-card">
+            <h3>Perfect</h3>
+            <p>Ed Sheeran</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

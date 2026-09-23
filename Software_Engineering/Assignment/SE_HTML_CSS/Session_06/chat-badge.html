@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fixed Chat Badge</title>
+    <style>
+        /* Dummy class just to create a scrolling effect */
+        .page-content {
+            height: 1500px;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .chat-badge {
+            /* fixed position keeps it stuck to the screen */
+            position: fixed; 
+            bottom: 30px; 
+            right: 30px;
+            
+            background-color: #25D366; /* WhatsApp green */
+            color: white;
+            padding: 15px 25px; /* Adds space inside the button */
+            border-radius: 50px; /* Makes the edges round */
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-content">
+        <h1>Scroll down this page!</h1>
+        <p>Notice how the WhatsApp badge stays exactly in the bottom right corner.</p>
+    </div>
+    
+    <div class="chat-badge">
+        WhatsApp Chat
+    </div>
+
+</body>
+</html>

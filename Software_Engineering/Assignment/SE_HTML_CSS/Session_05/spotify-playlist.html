@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Target all playlist items */
+        .playlist-item {
+            background-color: #121212; /* Spotify dark background */
+            color: #ffffff;            /* White text */
+            padding: 12px 20px;
+            margin-bottom: 5px;
+            list-style-type: none;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            border-radius: 4px;
+        }
+
+        /* Target ONLY the currently playing song */
+        #currently-playing {
+            color: #1db954; /* Spotify green text */
+            font-weight: bold;
+            background-color: #282828; /* Highlighted background row */
+        }
+    </style>
+</head>
+<body style="background-color: #000;">
+
+    <ul style="padding: 0; width: 300px;">
+        <li class="playlist-item">1. Blinding Lights - The Weeknd</li>
+        <li class="playlist-item" id="currently-playing">2. Shape of You - Ed Sheeran (Playing)</li>
+        <li class="playlist-item">3. Levitating - Dua Lipa</li>
+    </ul>
+
+</body>
+</html>

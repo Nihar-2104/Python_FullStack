@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Default Light Mode Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333333;
+            transition: background-color 0.4s ease, color 0.4s ease;
+            padding: 20px;
+        }
+
+        .movie-container {
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            transition: background-color 0.4s ease, border-color 0.4s ease;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: 1px solid #333;
+        }
+
+        /* Dark Mode Styles (Applied when 'dark-mode' class is on body) */
+        body.dark-mode {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        body.dark-mode .movie-container {
+            background-color: #2d2d2d;
+            border-color: #444444;
+        }
+        
+        body.dark-mode button {
+            background-color: #444;
+            color: white;
+            border-color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="themeToggleBtn" onclick="toggleDarkMode()">Switch to Dark Mode</button>
+
+    <div class="movie-container">
+        <h2>Inception (2010)</h2>
+        <p><strong>Genre:</strong> Action, Sci-Fi, Thriller</p>
+        <p><strong>About:</strong> A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</p>
+        <button style="background-color: #f84464; color: white; border: none;">Book Tickets</button>
+    </div>
+
+    <script>
+        function toggleDarkMode() {
+            // Get the body element and the button
+            const body = document.body;
+            const btn = document.getElementById('themeToggleBtn');
+            
+            // Toggle the 'dark-mode' class on the body
+            body.classList.toggle('dark-mode');
+            
+            // Update button text based on current mode
+            if (body.classList.contains('dark-mode')) {
+                btn.textContent = 'Switch to Light Mode';
+            } else {
+                btn.textContent = 'Switch to Dark Mode';
+            }
+        }
+    </script>
+
+</body>
+</html>
