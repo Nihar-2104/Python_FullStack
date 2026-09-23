@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Product Review</h2>
+    <form action="/submit-review" method="POST">
+
+        <!-- Username Field (Required) -->
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <!-- Rating Dropdown (Required, Default Unselectable) -->
+        <label for="rating">Rating:</label><br>
+        <select id="rating" name="rating" required>
+            <option value="" disabled selected hidden>Select a rating</option>
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+        </select><br><br>
+
+        <!-- Review Message (Required, Minimum 20 characters) -->
+        <label for="reviewMessage">Review Message:</label><br>
+        <textarea id="reviewMessage" name="reviewMessage" minlength="20" rows="5" required></textarea><br><br>
+
+        <button type="submit">Submit Review</button>
+    </form>
+
+</body>
+
+</html>

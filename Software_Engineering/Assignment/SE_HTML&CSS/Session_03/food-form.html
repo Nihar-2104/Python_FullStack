@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Order Food Online</h2>
+    <form action="/place-order" method="POST">
+
+
+        <label for="orderId">Order ID:</label><br>
+        <input type="text" id="orderId" name="orderId" value="ORD12345" disabled><br><br>
+
+        <!-- User Name Field (Required) -->
+        <label for="customerName">Full Name:</label><br>
+        <input type="text" id="customerName" name="customerName" required><br><br>
+
+        <!-- Food Item Dropdown (Required) -->
+        <label for="foodItem">Select Food Item:</label><br>
+        <select id="foodItem" name="foodItem" required>
+            <option value="" disabled selected hidden>Choose a dish</option>
+            <option value="paneer_tikka">Paneer Tikka</option>
+            <option value="chicken_biryani">Chicken Biryani</option>
+            <option value="masala_dosa">Masala Dosa</option>
+            <option value="choco_lava_cake">Choco Lava Cake</option>
+        </select><br><br>
+
+        <!-- Quantity Field (Number Input, Required) -->
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <!-- Delivery Instructions (Textarea) -->
+        <label for="deliveryInstructions">Delivery Instructions:</label><br>
+        <textarea id="deliveryInstructions" name="deliveryInstructions" rows="3"
+            placeholder="E.g., Leave at the door..."></textarea><br><br>
+
+        <button type="submit">Place Order</button>
+    </form>
+
+</body>
+
+</html>

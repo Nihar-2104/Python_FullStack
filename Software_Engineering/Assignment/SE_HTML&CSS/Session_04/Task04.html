@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Original Non-Semantic Code (Example): -->
+
+    <div class="movie-review">
+        <div class="review-header">
+            <div class="nav-links">
+                <span>Home</span> | <span>Reviews</span> | <span>Inception</span>
+            </div>
+            <div class="title">Inception - Movie Review</div>
+            <div class="author">By John Doe</div>
+        </div>
+
+        <div class="review-body">
+            <span>Rating: 5/5 Stars</span>
+            <div>Inception is a mind-bending thriller that keeps you on the edge of your seat. The visual effects are
+                stunning, and the plot is brilliant.</div>
+        </div>
+
+        <div class="review-footer">
+            <span>Published on: October 12, 2023</span>
+            <span>Copyright 2023 MovieCritique</span>
+        </div>
+    </div>
+
+
+    <!-- Refactored Semantic HTML Code: -->
+
+    <article class="movie-review">
+
+        <!-- Header section containing navigation and titles -->
+        <header class="review-header">
+            <nav class="breadcrumb-nav">
+                <a href="/">Home</a> | <a href="/reviews">Reviews</a> | <span>Inception</span>
+            </nav>
+            <h1>Inception - Movie Review</h1>
+            <p class="author">By John Doe</p>
+        </header>
+
+        <!-- Main content of the review -->
+        <section class="review-body">
+            <p><strong>Rating:</strong> 5/5 Stars</p>
+            <p>Inception is a mind-bending thriller that keeps you on the edge of your seat. The visual effects are
+                stunning, and the plot is brilliant.</p>
+        </section>
+
+        <!-- Footer section containing meta information -->
+        <footer class="review-footer">
+            <time datetime="2023-10-12">Published on: October 12, 2023</time>
+            <p>&copy; 2023 MovieCritique</p>
+        </footer>
+
+    </article>
+
+</body>
+
+</html>

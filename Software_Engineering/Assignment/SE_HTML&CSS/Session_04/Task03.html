@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart-Style Product Page</title>
+    <style>
+        /* Basic styling to simulate a clean e-commerce layout */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f6;
+            margin: 0;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 24px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Nav/Breadcrumb styles */
+        nav {
+            font-size: 12px;
+            color: #878787;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #878787;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #2874f0;
+        }
+
+        /* Header styles */
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header img {
+            max-width: 300px;
+            height: auto;
+        }
+        header h1 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #212121;
+            margin: 15px 0 5px 0;
+            text-align: center;
+        }
+        .price {
+            font-size: 28px;
+            font-weight: bold;
+            color: #212121;
+        }
+
+        /* Article/Details styles */
+        article {
+            color: #212121;
+            line-height: 1.6;
+        }
+        article h2 {
+            font-size: 18px;
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 8px;
+        }
+        article ul {
+            padding-left: 20px;
+        }
+
+        /* Footer/Offers styles */
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px dashed #e0e0e0;
+            font-size: 14px;
+        }
+        footer h3 {
+            font-size: 16px;
+            margin-top: 0;
+            color: #26a541;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="product-card">
+        <!-- Breadcrumb Navigation -->
+        <nav aria-label="breadcrumb">
+            <a href="#">Home</a> &gt; 
+            <a href="#">Mobiles & Accessories</a> &gt; 
+            <a href="#">Mobiles</a> &gt; 
+            <span>Pixel 8 Pro</span>
+        </nav>
+
+        <!-- Product Title and Image -->
+        <header>
+            <img src="./google-pixel-8-pro-1.jpg" alt="Smartphone Image">
+            <h1>Google Pixel 8 Pro (Obsidian, 128 GB) (12 GB RAM)</h1>
+            <div class="price">₹1,06,999</div>
+        </header>
+
+        <!-- Product Details and Description -->
+        <article>
+            <h2>Product Details</h2>
+            <p>Meet the Pixel 8 Pro, engineered by Google. It features a polished aluminum frame, matte back glass, and the most advanced Pixel cameras yet. Powered by the Google Tensor G3 chip, it brings cutting-edge AI directly to your fingertips.</p>
+            <ul>
+                <li>12 GB RAM | 128 GB ROM</li>
+                <li>6.7 inch Super Actua Display (120Hz)</li>
+                <li>50MP + 48MP + 48MP | 10.5MP Front Camera</li>
+                <li>5050 mAh Battery</li>
+                <li>Tensor G3 Processor</li>
+            </ul>
+        </article>
+
+        <!-- Offers and Warranty Info -->
+        <footer>
+            <h3>Available Offers</h3>
+            <ul>
+                <li><strong>Bank Offer:</strong> 10% instant discount on SBI Credit Card EMI Transactions, up to ₹1,500.</li>
+                <li><strong>Partner Offer:</strong> Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500.</li>
+            </ul>
+            <p><strong>Warranty:</strong> 1 Year Manufacturer Warranty for Device and 6 Months for In-Box Accessories.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

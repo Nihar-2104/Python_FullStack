@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions Form</title>
+</head>
+<body>
+
+    <h2>Admissions Form</h2>
+    <p>Enter your admission information below</p>
+    <hr>
+
+    <form action="#" method="POST">
+        
+        <!-- Name Section -->
+        <p><strong>Name *</strong></p>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <input type="text" id="first_name" name="first_name" required minlength="2" maxlength="30" pattern="[A-Za-z]+" title="First name should only contain letters.">
+                </td>
+                <td>
+                    <input type="text" id="middle_initial" name="middle_initial" maxlength="1" pattern="[A-Za-z]" title="Middle initial should be a single letter.">
+                </td>
+                <td>
+                    <input type="text" id="last_name" name="last_name" required minlength="2" maxlength="50" pattern="[A-Za-z]+" title="Last name should only contain letters.">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="first_name"><small>First Name</small></label></td>
+                <td><label for="middle_initial"><small>Middle Initial</small></label></td>
+                <td><label for="last_name"><small>Last Name</small></label></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- Birth Date Section -->
+        <p><strong>Birth Date *</strong></p>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <select name="month" id="month" required>
+                        <option value="" disabled selected></option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="day" id="day" required>
+                        <option value="" disabled selected></option>
+                        <option value="01">1</option>
+                        <option value="02">2</option>
+                        <option value="03">3</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="year" id="year" required>
+                        <option value="" disabled selected></option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="month"><small>Month</small></label></td>
+                <td><label for="day"><small>Day</small></label></td>
+                <td><label for="year"><small>Year</small></label></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- Gender Section -->
+        <p><strong>Gender *</strong></p>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label><br>
+        
+        <input type="radio" id="decline_gender" name="gender" value="Decline" required>
+        <label for="decline_gender">Decline to Answer</label>
+
+        <br><br>
+
+        <!-- Hispanic or Latino Section -->
+        <p><strong>Are you Hispanic or Latino? *</strong></p>
+        <input type="radio" id="latino_no" name="hispanic_latino" value="No" required>
+        <label for="latino_no">No</label><br>
+        
+        <input type="radio" id="latino_yes" name="hispanic_latino" value="Yes" required>
+        <label for="latino_yes">Yes</label><br>
+        
+        <input type="radio" id="latino_decline" name="hispanic_latino" value="Decline" required>
+        <label for="latino_decline">Decline to Answer</label>
+
+        <br><br><br>
+        
+        <button type="submit">Submit Form</button>
+    </form>
+
+</body>
+</html>

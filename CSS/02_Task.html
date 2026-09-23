@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .main{
+        margin: 200px auto;
+        width: 200px;
+    }
+    .button {
+        position: absolute;
+        padding: 20px 40px;
+        font-size: 28px;
+        background: #2fdab8;
+        color: white;
+        cursor: pointer;
+    }
+
+    .border {
+        position: absolute;
+        inset: 0;
+        border: 5px solid #2fdab8;
+        transition: 0.6s;
+        opacity: 0;
+    }
+
+    .button:hover .border {
+        opacity: 1;
+        transform: scaleX(1.12);
+    }
+</style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="button">Shop Now
+            <div class="border"></div>
+        </div>
+    </div>
+</body>
+
+</html>
